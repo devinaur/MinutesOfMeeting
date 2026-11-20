@@ -1,0 +1,72 @@
+# dependencies & vendors
+/vendor/
+node_modules/
+.venv/
+__pycache__/
+
+# Laravel & storage
+/public/hot
+/public/storage
+/storage/*.key
+/storage/oauth*.key
+/storage/app/private/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# misc & OS / IDE
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+*.p12
+id_rsa*
+.idea/
+.vscode/
+.fleet/
+*.sublime-*
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# environment files
+.env*
+!.env.example
+
+# AI / Agents, Personal Setup & Internal Tools (Do NOT commit to team repo)
+.agents/
+.gemini/
+.cursor/
+.cursorrules
+.serena/
+.obsidian/
+.ignore
+opencode.json
+AGENTS.md
+Anti AI Slop Design.md
+skills-lock.json
+PRD*.md
+
+scratch/
+diagrams/
+*.visual-check.*
+
+# Ticketing & Local Project Management (Personal Agent Workflow)
+project-log/
+design-system/
+# Excel files
+*.xlsx
+!YIID MoM.xlsx
+.codegraph/
+
+
+
+*.log

@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "error_stage": "TEXT_TO_JSON",
+  "error_code": "TOKEN_LIMIT_EXCEEDED",
+  "message": "Rangkuman AI mengalami kendala karena durasi meeting terlalu panjang.",
+  "raw_transcript": "Selamat pagi semuanya, kita mulai rapat hari ini..."
+}

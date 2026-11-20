@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "language": {
+      "type": "string",
+      "description": "Bahasa output: 'id' atau 'en'"
+    },
+    "department": {
+      "type": "string",
+      "description": "Divisi: 'business_unit', 'it', atau 'ssm'"
+    },
+    "template_variant": {
+      "type": "string",
+      "description": "Varian template: 'standard', 'weekly', atau 'project'"
+    },
+    "audio_base64": {
+      "type": "string",
+      "description": "Berkas audio rekaman dalam format Base64"
+    },
+    "audio_mime_type": {
+      "type": "string",
+      "description": "Mime type audio, misal 'audio/m4a' atau 'audio/mp3'"
+    },
+    "audio_file_name": {
+      "type": "string",
+      "description": "Nama file asli yang diunggah"
+    },
+    "system_prompt": {
+      "type": "string",
+      "description": "Instruksi prompt terkomposisi otomatis dari Laravel"
+    }
+  },
+  "required": [
+    "language",
+    "department",
+    "audio_base64",
+    "system_prompt"
+  ]
+}

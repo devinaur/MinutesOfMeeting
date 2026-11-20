@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "language": {
+      "type": "string",
+      "description": "Bahasa output: 'id' atau 'en'"
+    },
+    "department": {
+      "type": "string",
+      "description": "Divisi: 'business_unit', 'it', atau 'ssm'"
+    },
+    "template_variant": {
+      "type": "string",
+      "description": "Varian template: 'standard', 'weekly', atau 'project'"
+    },
+    "text_content": {
+      "type": "string",
+      "description": "Catatan rapat mentah dari user"
+    },
+    "system_prompt": {
+      "type": "string",
+      "description": "Instruksi prompt terkomposisi otomatis dari Laravel"
+    }
+  },
+  "required": [
+    "language",
+    "department",
+    "text_content",
+    "system_prompt"
+  ]
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri'), url('/fonts/Calibri.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri Bold'), local('Calibrib'), url('/fonts/Calibrib.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri Italic'), local('Calibrii'), url('/fonts/Calibrii.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: local('Calibri Bold Italic'), local('Calibriz'), url('/fonts/Calibriz.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, button, input, select, textarea, span, p, h1, h2, h3, h4, div, table, tr, th, td, a {
+    font-family: 'Calibri', 'Candara', 'Segoe UI', Arial, sans-serif !important;
+}
+
+/**
+* Paginator - Traditional style
+* Because Laravel defaults does not match well the design of daisyUI.
+*/
+.mary-table-pagination span[aria-current="page"] > span {
+    @apply bg-primary text-white;
+}
+
+.mary-table-pagination button {
+    @apply cursor-pointer;
+}

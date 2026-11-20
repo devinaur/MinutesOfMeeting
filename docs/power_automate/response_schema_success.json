@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "is_meeting": true,
+    "error_message": "",
+    "meeting_info": {
+      "date": "19-11-2026",
+      "time": "10:00",
+      "location": "Meeting Room 1",
+      "chairman": "Devina Rahma"
+    },
+    "attendees": [
+      {
+        "name": "Devina Rahma",
+        "company": "PT Yusen Logistics Interlink Indonesia",
+        "division": "IT"
+      }
+    ],
+    "it_details": {
+      "title": "Judul Inisiatif / Proyek",
+      "sub_topics": [
+        {
+          "title": "Sub Topik 1",
+          "discussion": "Hasil pembahasan dan progres...",
+          "next_action": "Tindak lanjut dan PIC..."
+        }
+      ],
+      "conclusion": "Paragraf kesimpulan akhir penutup rapat."
+    },
+    "agenda_items": [
+      {
+        "no": 1,
+        "topic": "Sub Topik 1",
+        "discussion": "Hasil pembahasan dan progres...",
+        "next_action": "Tindak lanjut dan PIC...",
+        "action_items": [
+          {
+            "task": "Tugas tindak lanjut",
+            "pic": "Nama PIC",
+            "deadline": "25-Nov-2026"
+          }
+        ]
+      }
+    ]
+  }
+}
